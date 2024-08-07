@@ -1,4 +1,4 @@
-import ipdb
+# import ipdb
 
 spicy_foods = [
     {
@@ -55,12 +55,13 @@ def get_average_heat_level(spicy_foods):
    
 
 def create_spicy_food(spicy_foods, spicy_food):
+    spicy_food = {'name': 'Griot', 'cuisine': 'Haitian', 'heat_level': 10}
     spicy_foods.append(spicy_food) 
     return spicy_foods
-new_food = {'name': 'Griot', 'cuisine': 'Haitian', 'heat_level': 10}
-spicy_foods = create_spicy_food(spicy_foods, new_food)
+# spicy_food = {'name': 'Griot', 'cuisine': 'Haitian', 'heat_level': 10}
+# spicy_foods = create_spicy_food(spicy_foods, spicy_food)
 
 
     
 
-ipdb.set_trace()
+# ipdb.set_trace()
